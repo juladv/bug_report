@@ -1,0 +1,215 @@
+"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G11-3","group1.1","","#11 Mobile App Testing","root","10 Sep 2022","12 Nov 2022",,"Critical","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-218","group1.1","Star","Mobile App Testing Julia Lapina","julia.lapinsh","8 Nov 2022","8 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-231","group1.1","Star","Not always saving notes","julia.lapinsh","8 Nov 2022","8 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"macOS Monterey, Android Studio","No qase tc # (only for bug)","Preconditions: Instal android studio on comuter. Choose Pixel for emulator Download and instal test_app.apk.
+STR:
+
+1. Press red circle to add new to do list
+2. Fill in title, and test text
+3. Save the note by pressing red circle tick button 
+   
+   Act.result:the note haven't been  saved, it repeats not constantly. Adding loggs to the attachments. 
+   
+   Exp.result:the note is saved","0"
+"G11-229","group1.1","Star","no ability to use cyrillic ","julia.lapinsh","8 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey, Android Studio","No qase tc # (only for bug)","Preconditions: Instal android studio on comuter. Choose Pixel for emulator Download and instal test_app.apk.
+STR:
+
+1\. press red circle to create new to do list
+
+2\.start typing cyrillic in the title or at the text area 
+
+Act.result:no ability to type using cyrillic
+
+Exp.result:you can enter either  cyrillic or latin ","0"
+"G11-224","group1.1","Star","No auto data saving when telefon is turned off","julia.lapinsh","8 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey, Android studio","No qase tc # (only for bug)","Preconditions: Instal android studio on comuter. Choose Pixel for emulator Download and instal test_app.apk.
+
+STR:
+
+1\. Create test to do list, don't save it. 
+
+2\. Press turn off the telefon on emelator. 
+
+3\. Turn on the tel
+
+Act.result: to do list is not saved
+
+Exp.result:
+to do list is saved","0"
+"G11-222","group1.1","Star","The button  go back  is not working","julia.lapinsh","8 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey, Android Studio","No qase tc # (only for bug)","The button to go back is not working when you want to exit new to do list without saving it.
+
+Preconditions: Instal android studio on computer. Choose Pixel for emulator Download and instal test_app.apk.
+
+
+
+STR: 1. Press red circle to add new to do list
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Press the button to go back/ escape
+
+Act.result: nothing happened, you can't go back to the home page
+
+Exp.result:you can return to the home page","0"
+"G11-177","group1.1","Star","Web App Testin Julia Lapina","julia.lapinsh","4 Oct 2022","6 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-2","group1.1","","#7 Web App Testing","root","10 Sep 2022","5 Oct 2022",,"Critical","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-190","group1.1","","Shipping Adress: invalid data in First name, Last name, City, Adress, zip code, phone number is not forbidden, te","arakhimova","5 Oct 2022","5 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Windows 11  21H2 Google Chrome  105.0.5195.127","No qase tc # (only for bug)","**Str:**
+
+1. Open link <https://demowebshop.tricentis.com/cart>, add goods to shopping cart
+2. Click checkbox  ""I agree with the terms of service and I adhere to them unconditionally (read)"" and click checkbox button
+3. Click Checkout as a guest button
+4. Input invalid data (numbers, special characters) in First name text field
+5. Fill other fields
+6. Click continue button
+
+
+
+**Result:** numbers, special characters are available, checkout continious
+
+**Expected result:** error or warning massage should appear ","0"
+"G11-184","group1.1","Star","shipping method not correct values, always zero","julia.lapinsh","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","STR:
+
+1. open <http://demowebshop.tricentis.com/>, log in
+2. add some products to the cart
+3. go to the shopping cart -\> shipping method
+
+Act. result: all shipping method always have 0.00 price
+
+Exp. result: shipping method price should have various values according to the method.","0"
+"G11-183","group1.1","Star","Shipping address not active form for writing needed address","julia.lapinsh","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","
+
+STR:
+
+1. open <http://demowebshop.tricentis.com/>, log in
+2. add some products to the cart
+3. go to the shopping cart -\>  shipping address
+4. choose shipping address-\> in store pick-up radio button 
+
+Act result: *Pick up your items at the store (put your store address here), but there is no possibility to put any address, the form is not active.*
+
+Exp. result: you can type the address of the store where you want to pick up products.","0"
+"G11-182","group1.1","Star","Loads all products which you have added previously ","julia.lapinsh","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","When you log in after you have already put products into the cart, it loads all old goods which you have put in previous sessions. 
+
+STR:
+
+1. open <http://demowebshop.tricentis.com/>, log in
+2. add some products to the cart
+3. log out, end session
+4. open <http://demowebshop.tricentis.com>
+5. don't log in, just add some products to the cart 
+6. go to the shopping cart, press checkout
+7. log in 
+
+Act result: you see all the products which you have added previously
+
+Exp. result: in the cart only the products which you have added during this session. ","0"
+"G11-181","group1.1","Star","Shopping cart: when you put negative number in quantity input  it clear the cart","julia.lapinsh","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)","STR:
+
+1. open <http://demowebshop.tricentis.com/>
+2. add a product to the cart
+3. go to the shopping cart
+4. in the quantity input box type in a negative number, press Enter
+
+Act. result: redirection to the new page with  the message 'Your Shopping Cart is empty!'
+
+Exp. result: validation message/ restriction to put negative numbers","0"
+"G11-180","group1.1","Star","Quantity input: no validation message when you input special symbols","julia.lapinsh","5 Oct 2022","5 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","STR:
+
+1. open <http://demowebshop.tricentis.com/>
+2. add a product to the cart
+3. go to the shopping cart
+4. in  quantity input box type in special symbols
+
+Act. result: it allows to type in special symbols
+
+Exp. result: validation message or absence of ability to type in smth except number (according to the requirements). ","0"
+"G11-179","group1.1","Star","Missing button 'add to cart'","julia.lapinsh","5 Oct 2022","5 Oct 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","The button 'add to cart is absent in Jewelry, Apparel/Shoes, Electronics, Desktops, books catalogs. The user doesn't have the ability to add needed goods to the cart.
+
+
+
+STR:
+
+1. go to <http://demowebshop.tricentis.com/>
+2. choose Jewelry catalog on top menu
+
+   Act. result: absent button 'add to cart'
+
+   Exp. result: all goods have button 'add to cart' and user can choose and put to the cart  any product  he wants. ","0"
+"G11-178","group1.1","Star","Shopping cart button remove is not clickable","julia.lapinsh","4 Oct 2022","4 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","STR:
+
+1. Open <http://demowebshop.tricentis.com/>
+2. Add any goods to the cart
+3. Open the cart and press the button remove
+
+Act. result: remove button is not clickable
+
+Exp. result: remove button is clickable, empty basket.","0"
+"G11-156","group1.1","","Testing Documentation Oleksii Budkov group 1.1 Web app Testing","oleksiibudkov","3 Oct 2022","3 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H2 ; Google Chrome 105.0.5195.127 .","No qase tc # (only for bug)",,"0"
+"G11-55","group1.1","","Add Customer: When Last name field  is empty  info message Customer name must not be blank appears ","arakhimova","28 Sep 2022","29 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 11 21H2 Google Chrome 105.0.5195.127","G13-129","**STR:**
+
+1. Open link <https://demo.guru99.com/telecom/addcustomer.php>
+2. Click on Last Name field
+3. Let Last Name field empty and click any place on page
+
+**Result:** Under field info message Customer name must not be blank  appears.
+
+
+
+**Expected result:** Under field info message Last Name must not be blank  appears.
+
+
+","0"
+"G11-71","group1.1","","Логин через почту","root","28 Sep 2022","28 Sep 2022",,"Normal","Feature","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)","Мы можем использовать только 
+
+gmail
+
+yahoo
+
+rambler","0"
+"G11-70","group1.1","","Вход в систему","root","28 Sep 2022","28 Sep 2022",,"Normal","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)","Логин через почту
+
+Логин через email
+
+Логин через соцсети","0"
+"G11-1","group1.1","","#6 Testing Documentation","root","10 Sep 2022","28 Sep 2022",,"Critical","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-50","group1.1","Star","Add customer: wrong validation message 'numbers are not allowed' instead 'Cyrillic is not allowed''","julia.lapinsh","25 Sep 2022","25 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","**STR :** 
+
+1. open <https://demo.guru99.com/telecom/addcustomer.php>
+2. fill in field 'first name' cyrillic Юлия
+
+**Act res:** validation message - numbers are not allowed
+
+**Exp res:** validation message - Cyrillic is not allowed","0"
+"G11-47","group1.1","Star","Testing documentation Julia Lapina","julia.lapinsh","25 Sep 2022","25 Sep 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-49","group1.1","Star","Add customer: mistake in validation message-is written customer name instead of last name","julia.lapinsh","25 Sep 2022","25 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","**STR:** 
+
+1. open <https://demo.guru99.com/telecom/addcustomer.php>
+2. fill in all data in all fields
+3. last name field leave empty
+
+**Act. result:** validation message - customer name must not be blank
+
+**Exp. result** : validation message - last name must not be blank. According to the requirements. ","0"
+"G11-48","group1.1","Star","Add customer: omitted space in  the message  after successful registration","julia.lapinsh","25 Sep 2022","25 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"macOS Monterey Google Chrome  v.105.0.5195.125","No qase tc # (only for bug)","**STR:**
+
+1. go to <https://demo.guru99.com/telecom/addcustomer.php>
+2. complete registration
+3. 3.redirection to page with customer id
+
+**Act.result:**  customer id is written in one word
+
+**Exp.result:** customer Id is written separately ","0"
+"G11-32","group1.1","","Main Page: The button ""Delete Customer"" missed ","oleksiibudkov","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Check the page for button ""Delete Customer"".
+
+   **ACT:** The main page without the button ""Delete Customer"" 
+
+   **EXP:** The main page have the button ""Delete Customer"" 
+
+   **Environment:** 
+
+   | Windows 10 Pro Version 21H2 |  |
+   | --- | --- |
+   | Google Chrome 105.0.5195.127 |  |
+
+   
+","0"
